@@ -1,0 +1,109 @@
+/*Write some CSS below*/
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: rgb(155, 155, 155);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color: rgb(177, 177, 177);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    margin: 60px auto;
+}
+
+.banner {
+    background-image: url('/images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    color: cornsilk;
+    font-size: 2em;
+    margin: 0;
+}
+
+.banner p {
+    color: cornsilk;
+    font-size: 1.1em;
+    opacity: 0.9;
+} 
+
+.btn-green {
+    background-color: rgba(7, 185, 255, 0.788);
+    padding: 5px 20px;
+    border: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-green a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: rgb(197, 195, 187);
+    color: cornsilk;
+}
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-white {
+    background-color: white;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    margin-bottom: 0;
+}
+
+.card-white img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card-white p {
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(7, 185, 255, 0.788);
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
